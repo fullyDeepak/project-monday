@@ -22,7 +22,7 @@ function ResponsiveAppBar() {
         <Container className='max-w-[1400px]'>
           <Toolbar disableGutters>
             <Box className='w-[12%] mr-5'>
-              <img src='public/assets/monday-logo-x2.png' alt='' />
+              <img src='/assets/monday-logo-x2.png' alt='' />
             </Box>
             <Box className='flex justify-between w-full'>
               <Box className='flex  gap-3 '>

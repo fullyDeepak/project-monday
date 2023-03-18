@@ -25,7 +25,7 @@ const HeroSection = () => {
             name='checkbox'
             id='design'
           />
-          <img className='w-10' src='public/assets/design_icon.png' alt='' />
+          <img className='w-10' src='/assets/design_icon.png' alt='' />
           <p>Creative & design</p>
         </label>
         <label
@@ -37,7 +37,7 @@ const HeroSection = () => {
             name='checkbox'
             id='Software'
           />
-          <img className='w-10' src='public/assets/design_icon.png' alt='' />
+          <img className='w-10' src='/assets/design_icon.png' alt='' />
           <p>Software development</p>
         </label>
         <label
@@ -49,7 +49,7 @@ const HeroSection = () => {
             name='checkbox'
             id='Marketing'
           />
-          <img className='w-10' src='public/assets/design_icon.png' alt='' />
+          <img className='w-10' src='/assets/design_icon.png' alt='' />
           <p>Marketing</p>
         </label>
         <label
@@ -61,7 +61,7 @@ const HeroSection = () => {
             name='checkbox'
             id='Project'
           />
-          <img className='w-10' src='public/assets/design_icon.png' alt='' />
+          <img className='w-10' src='/assets/design_icon.png' alt='' />
           <p>Project management</p>
         </label>
         <label
@@ -73,7 +73,7 @@ const HeroSection = () => {
             name='checkbox'
             id='CRM'
           />
-          <img className='w-10' src='public/assets/design_icon.png' alt='' />
+          <img className='w-10' src='/assets/design_icon.png' alt='' />
           <p>Sales & CRM</p>
         </label>
         <label
@@ -85,7 +85,7 @@ const HeroSection = () => {
             name='checkbox'
             id='Task'
           />
-          <img className='w-10' src='public/assets/design_icon.png' alt='' />
+          <img className='w-10' src='/assets/design_icon.png' alt='' />
           <p>Task management</p>
         </label>
         <label
@@ -97,7 +97,7 @@ const HeroSection = () => {
             name='checkbox'
             id='HR'
           />
-          <img className='w-10' src='public/assets/design_icon.png' alt='' />
+          <img className='w-10' src='/assets/design_icon.png' alt='' />
           <p>HR</p>
         </label>
         <label
@@ -109,7 +109,7 @@ const HeroSection = () => {
             name='checkbox'
             id='Operations'
           />
-          <img className='w-10' src='public/assets/design_icon.png' alt='' />
+          <img className='w-10' src='/assets/design_icon.png' alt='' />
           <p>Operations</p>
         </label>
         <label
@@ -121,7 +121,7 @@ const HeroSection = () => {
             name='checkbox'
             id='workflows'
           />
-          <img className='w-10' src='public/assets/design_icon.png' alt='' />
+          <img className='w-10' src='/assets/design_icon.png' alt='' />
           <p>More workflows</p>
         </label>
       </Box>

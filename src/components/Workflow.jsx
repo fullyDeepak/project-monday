@@ -43,7 +43,7 @@ const Workflow = () => {
             }}
             tabindex='1'
             className='flex relative focus:after:h-1 focus:after:absolute focus:after:w-full focus:after:bg-indigo-500 focus:after:bottom-0 focus:after:rounded-t-md hover:bg-gray-100 cursor-pointer text-gray-500 text-sm font-light gap-2 p-6 px-7 flex-col items-center'>
-            <img className='w-4' src='public/assets/board_icon.png' alt='' />
+            <img className='w-4' src='/assets/board_icon.png' alt='' />
             <p>Boards</p>
           </Box>
           <Box
@@ -52,7 +52,7 @@ const Workflow = () => {
             }}
             tabindex='1'
             className='flex relative focus:after:h-1 focus:after:absolute focus:after:w-full focus:after:bg-indigo-500 focus:after:bottom-0 focus:after:rounded-t-md hover:bg-gray-100 cursor-pointer text-gray-500 text-sm font-light gap-2 p-6 px-7 flex-col items-center'>
-            <img className='w-4' src='public/assets/board_icon.png' alt='' />
+            <img className='w-4' src='/assets/board_icon.png' alt='' />
             <p>Views</p>
           </Box>
           <Box
@@ -61,7 +61,7 @@ const Workflow = () => {
             }}
             tabindex='1'
             className='flex relative focus:after:h-1 focus:after:absolute focus:after:w-full focus:after:bg-indigo-500 focus:after:bottom-0 focus:after:rounded-t-md hover:bg-gray-100 cursor-pointer text-gray-500 text-sm font-light gap-2 p-6 px-7 flex-col items-center'>
-            <img className='w-4' src='public/assets/board_icon.png' alt='' />
+            <img className='w-4' src='/assets/board_icon.png' alt='' />
             <p>Dashboard</p>
           </Box>
           <Box
@@ -70,7 +70,7 @@ const Workflow = () => {
             }}
             tabindex='1'
             className='flex relative focus:after:h-1 focus:after:absolute focus:after:w-full focus:after:bg-indigo-500 focus:after:bottom-0 focus:after:rounded-t-md hover:bg-gray-100 cursor-pointer text-gray-500 text-sm font-light gap-2 p-6 px-7 flex-col items-center'>
-            <img className='w-4' src='public/assets/board_icon.png' alt='' />
+            <img className='w-4' src='/assets/board_icon.png' alt='' />
             <p>Integration</p>
           </Box>
           <Box
@@ -79,7 +79,7 @@ const Workflow = () => {
             }}
             tabindex='1'
             className='flex relative focus:after:h-1 focus:after:absolute focus:after:w-full focus:after:bg-indigo-500 focus:after:bottom-0 focus:after:rounded-t-md hover:bg-gray-100 cursor-pointer text-gray-500 text-sm font-light gap-2 p-6 px-7 flex-col items-center'>
-            <img className='w-4' src='public/assets/board_icon.png' alt='' />
+            <img className='w-4' src='/assets/board_icon.png' alt='' />
             <p>Automation</p>
           </Box>
           <Box
@@ -88,7 +88,7 @@ const Workflow = () => {
             }}
             tabindex='1'
             className='flex relative focus:after:h-1 focus:after:absolute focus:after:w-full focus:after:bg-indigo-500 focus:after:bottom-0 focus:after:rounded-t-md hover:bg-gray-100 cursor-pointer text-gray-500 text-sm font-light gap-2 p-6 px-7 flex-col items-center'>
-            <img className='w-4' src='public/assets/board_icon.png' alt='' />
+            <img className='w-4' src='/assets/board_icon.png' alt='' />
             <p>Apps</p>
           </Box>
           <Box
@@ -97,7 +97,7 @@ const Workflow = () => {
             }}
             tabindex='1'
             className='flex relative focus:after:h-1 focus:after:absolute focus:after:w-full focus:after:bg-indigo-500 focus:after:bottom-0 focus:after:rounded-t-md hover:bg-gray-100 cursor-pointer text-gray-500 text-sm font-light gap-2 p-6 px-7 flex-col items-center'>
-            <img className='w-4' src='public/assets/board_icon.png' alt='' />
+            <img className='w-4' src='/assets/board_icon.png' alt='' />
             <p>Docs</p>
           </Box>
         </Box>
@@ -106,14 +106,14 @@ const Workflow = () => {
         <Box className='flex-1  '>
           <img
             className='w-[100%] shadow-[0_10px_30px_0px_rgba(29,140,242,0.2)] rounded-xl'
-            src='public/assets/team-iteration.avif'
+            src='/assets/team-iteration.avif'
             alt=''
           />
         </Box>
         <Box className='flex-1 flex justify-end'>
           <Box className='flex gap-4 ml-28 items-center flex-col'>
             <Box className='flex gap-4 self-start items-center'>
-              <img className='w-6' src='public/assets/views_icon.png' alt='' />{' '}
+              <img className='w-6' src='/assets/views_icon.png' alt='' />{' '}
               <p className='text-2xl text-indigo-500'>{workflowhead}</p>
             </Box>
             <p className='font-light  leading-6 text-lg'>{workflowPara}</p>

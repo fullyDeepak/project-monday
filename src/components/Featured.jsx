@@ -23,15 +23,15 @@ const Featured = () => {
       <Box className='flex flex-col items-center gap-10'>
         <p className='text-2xl'>Trusted by 180,000+ customers worldwide</p>
         <Box className='flex gap-5'>
-          <img className=' h-10' src='public/assets/genpact.png' alt='' />
-          <img className=' h-10' src='public/assets/HoltCat.png' alt='' />
-          <img className=' h-10' src='public/assets/canva.png' alt='' />
-          <img className=' h-10' src='public/assets/coca_cola.png' alt='' />
-          <img className=' h-10' src='public/assets/lionsgate.png' alt='' />
-          <img className=' h-10' src='public/assets/hulu.png' alt='' />
-          <img className=' h-10' src='public/assets/bd.png' alt='' />
-          <img className=' h-10' src='public/assets/glossier.png' alt='' />
-          <img className=' h-10' src='public/assets/universal.png' alt='' />
+          <img className=' h-10' src='/assets/genpact.png' alt='' />
+          <img className=' h-10' src='/assets/HoltCat.png' alt='' />
+          <img className=' h-10' src='/assets/canva.png' alt='' />
+          <img className=' h-10' src='/assets/coca_cola.png' alt='' />
+          <img className=' h-10' src='/assets/lionsgate.png' alt='' />
+          <img className=' h-10' src='/assets/hulu.png' alt='' />
+          <img className=' h-10' src='/assets/bd.png' alt='' />
+          <img className=' h-10' src='/assets/glossier.png' alt='' />
+          <img className=' h-10' src='/assets/universal.png' alt='' />
         </Box>
         <Box className='flex mt-40 max-w-7xl'>
           <Box className='flex-1 text-4xl font-light leading-[50px] '>
@@ -52,7 +52,7 @@ const Featured = () => {
       </Box>
       <Box>
         <Box className='z-0 bg-[#00023b]'>
-          <img src='public/assets/dashboard-ss.png' alt='' />
+          <img src='/assets/dashboard-ss.png' alt='' />
         </Box>
         <Box className='-mt-60'>{triangle}</Box>
       </Box>

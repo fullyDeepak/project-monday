@@ -33,7 +33,7 @@ const Overview = () => {
             </Box>
             <Box className='flex gap-5 items-center '>
               <Box className='w-28'>
-                <img src='public/assets/jane.avif' alt='' />
+                <img src='/assets/jane.avif' alt='' />
               </Box>
               <Box>
                 <p className='font-light leading-7 mb-2 text-sm'>
@@ -58,7 +58,7 @@ const Overview = () => {
             </Box>
             <Box className='flex gap-5 items-center '>
               <Box className='w-28'>
-                <img src='public/assets/jane.avif' alt='' />
+                <img src='/assets/jane.avif' alt='' />
               </Box>
               <Box>
                 <p className='font-light leading-7 mb-2 text-sm'>
@@ -83,7 +83,7 @@ const Overview = () => {
             </Box>
             <Box className='flex gap-5 items-center '>
               <Box className='w-28'>
-                <img src='public/assets/jane.avif' alt='' />
+                <img src='/assets/jane.avif' alt='' />
               </Box>
               <Box>
                 <p className='font-light leading-7 mb-2 text-sm'>
@@ -100,7 +100,7 @@ const Overview = () => {
           </Box>
           <Box className='flex flex-col flex-1 h-full top-20 sticky'>
             <Box className='bg-white/60 h-3 rounded-t-lg'></Box>
-            <img src='public/assets/overview.png' alt='' />
+            <img src='/assets/overview.png' alt='' />
           </Box>
         </Box>
       </Box>
